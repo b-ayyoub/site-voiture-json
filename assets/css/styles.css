@@ -1,0 +1,111 @@
+.img-fluid img{
+    width: 100%;
+    height: 110vh;
+    position: relative;
+}
+
+.title{
+   display: flex;
+    position: absolute;
+    top: 10rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    left: 40%;
+}
+
+.section-info{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.info{
+
+    width:20%;
+    text-align: center;
+}
+
+/* Section des témoignages */
+.testimonials {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Conteneur des témoignages */
+.testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Carte d'un témoignage */
+.testimonial {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 350px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.testimonial:hover {
+    transform: translateY(-5px);
+}
+
+/* Texte du témoignage */
+.testimonial-text {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Infos du client */
+.testimonial-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Image du client */
+.testimonial-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Nom et note */
+.testimonial-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+}
+
+.testimonial-rating {
+    font-size: 16px;
+    color: #f39c12;
+}
+
+.container{
+    width: 100%;
+}
+
+#voiture{
+    display: flex;
+    margin-top: 15rem;
+    gap: 3rem;
+    
+}
